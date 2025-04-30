@@ -57,3 +57,17 @@ body {
 .lote.bronce:hover {
   background-color: #cd7f32;
 }
+/* Estilos para móviles */
+@media (max-width: 600px) {
+  .field {
+    width: 100%;
+  }
+
+  .grid-container {
+    gap: 0.5px;
+  }
+
+  .lote {
+    font-size: 14px;
+  }
+}
